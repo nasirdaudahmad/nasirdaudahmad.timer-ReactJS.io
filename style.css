@@ -1,0 +1,60 @@
+body {
+  horizontal-align:middle;
+  background-color:teal;
+  color:white;
+  
+}
+.clockcontainer{
+  margin:auto;
+  text-align:center;
+}
+.Info{
+  margin:auto;
+  text-align:center;
+  display:flex;
+  justify-content: space-between;
+  width:180px;
+  
+  
+}
+.Info button{
+  background-color:transparent;
+  border: solid white 1px;
+  color:white;
+  width:20px;
+  height:20px;
+  
+}
+.Info label{
+ width:57.13%;
+ text-align:left;
+}
+.Info span{
+  width:25px;
+}
+.timer{
+  border:solid white 2px;
+  width:300px;
+  text-align="center";
+  border-radius:30px;
+  margin:auto;
+  margin-top:25px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.timer button{
+  background-color:transparent;
+  color:white;
+  border:solid white 1px;
+  border-radius:20px;
+  width:100px;
+  margin-left:1px;
+  
+}
+.timer label{
+  font-size:30px;
+}
+#time-left{
+  font-size:30px;
+  font-weight:bold;
+}
